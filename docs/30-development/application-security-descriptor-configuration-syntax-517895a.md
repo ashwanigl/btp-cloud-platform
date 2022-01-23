@@ -880,7 +880,7 @@ The `xsuaa` service broker registers and uses these values for the configuration
 >      "refresh-token-validity": 1800,
 >      "credential-types": ["binding-secret","x509"],
 >      "system-attributes ": ["groups","rolecollections"],
->      "allowedproviders ": ["orgin_key1","origin_key2"]
+>      "allowedIdentityProviders ": ["orgin_key1","origin_key2"]
 >      }
 > ```
 
@@ -1057,7 +1057,7 @@ Values:
 <tr>
 <td valign="top">
 
- `allowedproviders` 
+ `allowedIdentityProviders` 
 
 
 
